@@ -100,7 +100,9 @@ The script also checks required figures and saves its narrative and numeric accu
 
 #### Online Gemini option
 
-To use Gemini, configure `GEMINI_API_KEY` in the environment before running the script. Obtain a key through Google AI Studio and check the applicable free-tier availability and limits.
+To use Gemini, configure `GEMINI_API_KEY` in the environment before running the script. Obtain a **free Gemini API key** through Google AI Studio and verify that your selected model is available under the free usage tier. Use the free tier only; do not use a paid-only API key or enable paid billing for this project. Free-tier availability and usage limits may vary.
+
+The offline fallback remains available if you do not have a key or cannot access the free tier.
 
 For example, in a shell where the key is already securely available:
 
